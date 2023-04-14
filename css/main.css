@@ -1,0 +1,223 @@
+/* Colores */ /* Fuentes */
+/* Personalizacion bootstrap*/
+/* navbar */
+body {
+  margin-right: 0;
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+body .navbar-brand {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #888888;
+  padding-left: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+body .navbar-brand:hover {
+  transform: scale(1.5);
+  color: #888888;
+}
+body .navbar-brand .nav-link {
+  color: #808080;
+}
+
+/* body home */
+.homebod {
+  background-image: url(../media/one-hiking-lifestyle-summer-yoga.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.hometitle {
+  color: #efefef;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 30px;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: 1;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* footer */
+.bgcolorfooter {
+  background-color: #F2F2F2;
+}
+.bgcolorfooter .footer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  margin-right: 0px;
+}
+.bgcolorfooter .footer .icono {
+  width: 35px;
+  padding: 8px;
+  transition: transform 0.2s ease-in-out;
+}
+.bgcolorfooter .footer .icono:hover {
+  transform: scale(1.15);
+}
+
+/* cuerpo who am i */
+.bgwhoami {
+  background-color: #262626;
+  padding-left: 0px;
+}
+.bgwhoami .fotoperfil {
+  float: left;
+  min-height: auto;
+  padding-left: 0px;
+}
+.bgwhoami .whoami {
+  color: #f0c94a;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: flex;
+  flex-wrap: nowrap;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: 1;
+}
+.bgwhoami .text1 {
+  color: #D9D9D9;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* cuerpo que hago */
+.bgwhatdoido {
+  background-color: #F2F2F2;
+}
+.bgwhatdoido .toprow {
+  height: 50%;
+}
+.bgwhatdoido .toprow .quehago {
+  color: #f0c94a;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: flex;
+  flex-wrap: nowrap;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: 1;
+}
+.bgwhatdoido .toprow .fotoquehago1 {
+  margin-bottom: 20px;
+}
+.bgwhatdoido .btrow {
+  height: 50%;
+}
+.bgwhatdoido .text2 {
+  color: #262626;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow: hidden;
+}
+
+/* cuerpo whereonearth */
+.amsbg {
+  background-color: #F2F2F2;
+  padding-left: 0%;
+}
+.amsbg .canal {
+  float: left;
+  min-height: auto;
+  padding-right: 0px;
+  margin-right: 0px;
+}
+.amsbg .amsterdam {
+  color: #f0c94a;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: flex;
+  flex-wrap: nowrap;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: 1;
+}
+.amsbg .text3 {
+  color: #262626;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-overflow: hidden;
+}
+
+.maprow {
+  background-color: #262626;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.maprow .gmapscont {
+  display: flex;
+  justify-content: end;
+}
+
+/* cuerpo contacto */
+.bgcontacto {
+  min-height: 100vh;
+  background-image: url(../media/Byron3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bgcontacto .hitme {
+  display: flex;
+  justify-content: start;
+}
+.bgcontacto .hitme .hitmeup {
+  color: #f0c94a;
+  padding-top: 20px;
+  margin-left: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  flex-wrap: nowrap;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: 1;
+}
+.bgcontacto form {
+  justify-content: center;
+}
+
+@media screen and (max-width: 321px) {
+  .hitme {
+    text-align: end;
+    margin-right: 5px;
+  }
+  .hitme .hitmeup {
+    color: #D9D9D9;
+  }
+  .homebod {
+    background-color: #F2F2F2;
+  }
+  .block {
+    display: block;
+  }
+  .whoami {
+    display: block;
+  }
+  .amsterdam {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
